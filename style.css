@@ -51,6 +51,10 @@ header {
   z-index: 2;
 }
 
+.flex-container {
+  display: flex;
+}
+
 .title-container {
   display: flex;
   align-items: center;
@@ -315,6 +319,66 @@ button {
 button:hover {
   background-color: #1b31f3;
   color: #ffffff;
+}
+
+.fale-conosco-container {
+  width: 80%;
+  margin: 0 auto;
+  position: inherit;
+  display: flex;
+  gap: 1em;
+  margin-top: 1em;
+  border-top: 1px solid #1b31f3;
+  padding-top: 1em;
+}
+
+.fale-conosco-title {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+
+.fale-conosco-title img {
+  width: 32px;
+  height: 32px;
+}
+
+.fale-conosco-container button {
+  background-color: #ffffff;
+  color: #1b31f3;
+  border: 1px solid #1b31f3;
+  border-radius: 1em;
+  padding: 0.5em;
+  display: inline;
+}
+
+.fale-conosco-container button:hover, .fale-conosco-janela button  {
+  background-color: #1b31f3;
+  color: #ffffff;
+}
+
+.fale-conosco-janela {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0.5em;
+}
+
+.fale-conosco-janela h1 {
+  color: #1b31f3;
+  padding: 1em;
+  font-size: 1.3em;
+}
+
+.fale-conosco-janela form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+}
+
+.fale-conosco-janela form input, textarea {
+  padding: 0.5em;
 }
 
 @media screen and (min-width: 641px) and (max-width: 1023px)  {
